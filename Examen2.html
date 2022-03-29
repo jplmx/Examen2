@@ -1,0 +1,63 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Correo Electrónico Empresarial</title>
+		<link href="efectos02.css" rel="stylesheet" type="text/css">
+		<script src="Examen2.js" type="text/JavaScript"></script>
+	</head>
+
+	<body>
+		<center>
+
+		<p class="titulo24">Creación de Correo Electrónico Empresarial</p>
+		<table border="7%" width="80%">
+		<form name="f_rfc">
+
+			<tr align="center">
+				<td><p>Indique su Nombre</p></td>
+				<td><input name="nom" type="text" class="campo" onclick="campo_v1()"><font size="6" color="red">*</font>
+				</td>
+			</tr>
+
+			<tr align="center">
+				<td><p>Indique su Apellido Paterno</p></td>
+				<td><input name="ap" type="text" class="campo" onclick="campo_v2()"><font size="6" color="red">*</font>
+				</td>
+			</tr>
+
+			<tr align="center">
+				<td><p>Indique su Apellido Materno</p></td>
+				<td><input name="am" type="text" class="campo" onclick="campo_v3()"><font size="6" color="red">*</font>
+				</td>
+			</tr>
+			<tr align="center">
+				<td><p>Indique su fecha de nacimiento</p></td>
+				<td><input name="fec" type="date" class="campo" onclick="campo_v4()"><font size="6" color="red">*</font>
+				</td>
+			</tr>
+			<tr align="center">
+				<td><p>El Correo Electrónico Empresarial es</p></td>
+				<td><input name="salida" type="text" class="campo" disabled="true" style="background: black; color: white; width: 400px;">
+				</td>
+			</tr>
+
+			<tr align="center">
+				<td><p>La Contraseña Temporal (Usted la podrá cambiar después), es:</p></td>
+				<td><input name="contraseña" type="text" class="campo" disabled="true" style="background: black; color: white; width: 200px;">
+				</td>
+			</tr>
+
+			<tr align="center">
+				<td><input name="b_ejecuta" type="button" class="boton" value="Ejecutar" onClick="ejecuta()">
+				</td>
+				<td><input name="b_reinicia" type="reset" class="boton" value="Reiniciar" style="background: red;">
+				</td>
+			</tr>
+
+		</form>
+		</table>
+
+	</center>
+	</body>
+</html>
